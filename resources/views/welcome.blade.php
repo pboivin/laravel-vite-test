@@ -4,15 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Laravel</title>
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         @vite([
             'resources/css/app.css',
             'resources/js/app.js',
         ])
     </head>
-    <body>
-        <div class="p-4" id="app">
-            Hello HTML
+    <body class="bg-blue-100">
+        <div class="flex items-center justify-center p-8">
+            <div id="app"></div>
         </div>
     </body>
 </html>
